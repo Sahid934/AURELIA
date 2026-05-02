@@ -47,14 +47,14 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-block">
             <h3>Boutique Locations</h3>
-            <p>Paris • 15 Rue de la Paix</p>
-            <p>London • 124 New Bond Street</p>
-            <p>New York • 712 Fifth Avenue</p>
+            <p>Noida • 16 Front of pioneer House</p>
+            <p>Delhi • 12 New Bond Street</p>
+            <p>Mohali  • 12 Fifth Avenue</p>
           </div>
           <div className="info-block mt-4">
             <h3>Direct Inquiries</h3>
-            <p>concierge@aurelia.com</p>
-            <p>+1 (800) 555-0199</p>
+            <p>as9308974@aurelia.com</p>
+            <p>9162787967</p>
           </div>
         </div>
 
