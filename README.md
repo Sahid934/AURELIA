@@ -74,9 +74,44 @@ The AI Concierge helps users:
 - Get styling suggestions
 - Navigate collections
 
-### Run Backend
+Backend runs on:
 
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+http://127.0.0.1:8000
+💻 Run Frontend
+
+Simply open:
+
+index.html
+
+Or use Live Server extension in VS Code.
+
+📸 Preview
+
+Luxury collection grid featuring:
+
+Limited Quantity Tags
+Editorial Product Imagery
+Clean Grid Layout
+Minimal Navigation Bar
+📦 Future Enhancements
+Stripe Payment Integration
+User Authentication
+Wishlist System
+Product Filtering & Sorting
+Admin Dashboard
+Deployment on Vercel / Render
+🌍 Deployment
+
+Frontend can be deployed on:
+
+Vercel
+Netlify
+GitHub Pages
+
+Backend can be deployed on:
+
+Render
+Railway
+AWS / GCP
+👨‍💻 Author
+Sahid Alam
