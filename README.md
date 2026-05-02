@@ -31,3 +31,52 @@ It features a curated storefront, collection showcase, contact page, and an AI-p
 ---
 
 ## 🏗 Project Structure
+AURELIA/
+│
+├── frontend/
+│ ├── index.html
+│ ├── shop.html
+│ ├── about.html
+│ ├── contact.html
+│ ├── css/
+│ └── js/
+│
+├── backend/
+│ ├── main.py (FastAPI)
+│ ├── routes/
+│ ├── models/
+│ └── requirements.txt
+│
+└── README.md
+
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3 (Custom Styling / Editorial Layout)
+- JavaScript (Vanilla JS / Optional React Version)
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+- OpenAI API (for AI Concierge)
+
+---
+
+## 🤖 AI Concierge
+
+The AI Concierge helps users:
+- Get fashion recommendations
+- Ask about product details
+- Get styling suggestions
+- Navigate collections
+
+### Run Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
