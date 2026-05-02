@@ -1,0 +1,127 @@
+.product-detail-page {
+  padding: 2rem 2rem 8rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.back-link:hover {
+  color: var(--obsidian);
+}
+
+.product-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 900px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+  }
+}
+
+.product-detail-image-wrapper {
+  background-color: var(--light-gray);
+  aspect-ratio: 3/4;
+}
+
+.product-detail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-detail-info {
+  padding-top: 2rem;
+}
+
+.product-detail-title {
+  font-size: 2.5rem;
+  color: var(--obsidian);
+  margin-bottom: 1rem;
+}
+
+.product-detail-price {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 2rem;
+}
+
+.product-detail-description {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+.add-to-cart-btn:disabled {
+  background-color: var(--border-color);
+  color: var(--text-secondary);
+  cursor: not-allowed;
+}
+
+.product-accordion details {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+}
+
+.product-accordion summary {
+  list-style: none;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.product-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.product-accordion summary::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+.product-accordion details[open] summary::after {
+  content: '-';
+}
+
+.accordion-content {
+  padding-top: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
