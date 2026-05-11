@@ -77,13 +77,14 @@ The AI Concierge helps users:
 Backend runs on:
 
 http://127.0.0.1:8000
+
 💻 Run Frontend
 
-Simply open:
+Simply open: index.html
+        
+        OR
 
-index.html
-
-Or use Live Server extension in VS Code.
+use Live Server extension in VS Code.
 
 📸 Preview
 
@@ -113,5 +114,15 @@ Backend can be deployed on:
 Render
 Railway
 AWS / GCP
+
+📦 Future Enhancements
+   💳 Stripe Payment Integration
+   🔐 User Authentication System
+   ❤️ Wishlist Feature
+   🔎 Product Filtering & Sorting
+   🛠 Admin Dashboard
+   ☁ Full Cloud Deployment
+
+
 👨‍💻 Author
 Sahid Alam
